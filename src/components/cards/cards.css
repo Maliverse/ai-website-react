@@ -1,0 +1,64 @@
+.gpt3__cards-container{
+    width: 327.34px;
+    height: 280.84px;
+    background: #042C54;
+   margin: 3rem;
+    padding-bottom: 2rem;
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+       
+ 
+}
+.gpt3__cards img{
+    width: 327.34px;
+    height: 130.47px;
+    display: flex;
+    justify-content: flex-start;
+    align-self: center;
+
+
+}
+.gpt3__cards-texts{
+    font-family: manrope;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.gpt3__cards-texts .p1{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11.649px;
+    line-height: 35px;
+}
+.gpt3__cards-texts h1{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25.11px;
+    line-height: 30px;
+}
+.gpt3__cards-texts .p2{
+    margin-top: 20px;
+    cursor: pointer;
+}
+@media screen and (max-width:950px){
+    .gpt3__cards-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 0;
+        
+    }
+    .gpt3__cards img{
+       
+        width: 327.34px;
+        height: 130.47px;
+        display: flex;
+        justify-content: flex-start;
+        align-self: center;
+    }
+    
+}
