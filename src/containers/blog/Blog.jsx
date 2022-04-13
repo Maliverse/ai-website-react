@@ -7,8 +7,15 @@ import { Cards } from '../../components'
 
 const Blog = () => {
   return (
-    <div className='gpt3__blog-cards-container'>
+    <div className='gpt3__blog-everything'>
 
+   
+    <div className='gpt3__blog-heading gradient__text' >
+      <h1>A lot is happening, <br />
+      We are blogging about it.</h1>
+      </div>
+
+    <div className='gpt3__blog-cards-container'>
  
     <div className='gpt3__blog01-container'>
       <div className='gpt3__blog01'>
@@ -39,6 +46,7 @@ const Blog = () => {
 
      </div>
     
+  </div>
   </div>
   )
 }

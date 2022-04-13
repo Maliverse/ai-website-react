@@ -79,4 +79,8 @@ color: #FF8A71;
         width: 246px;
         
     }
+    .gpt3__possibility-texts h1{
+        font-size: 16px;
+        line-height: 18px;
+    }
 }

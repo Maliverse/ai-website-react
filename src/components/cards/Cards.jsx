@@ -8,7 +8,7 @@ const Cards = ({ frame, text }) => {
               <div className='gpt3__cards'>
             
               <div className='gpt3__cards-texts'>
-                <img src={frame} alt="image" />
+                <img src={frame} alt="frame" />
               <div>
               <p className='p1'> Sep 26, 2021 </p>
               <h1>{text}</h1>

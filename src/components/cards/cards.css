@@ -43,6 +43,7 @@
 .gpt3__cards-texts .p2{
     margin-top: 20px;
     cursor: pointer;
+    margin-bottom: 2rem;
 }
 @media screen and (max-width:950px){
     .gpt3__cards-container{

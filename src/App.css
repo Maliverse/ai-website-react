@@ -6,6 +6,11 @@
     
 
 }
+html{
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+}
 body{
     background: var(--color-bg);
     color: white;
@@ -41,6 +46,7 @@ a{
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-family: manrope;
 }
 .section__padding{
     padding: 4rem 6rem;
@@ -85,6 +91,9 @@ a{
     }
   }
 @media screen and (max-width: 700px ) {
+    body{
+        
+    }
     .section__padding{
         padding: 4rem;
     } 
@@ -93,6 +102,7 @@ a{
     }
 }  
 @media screen and (max-width: 550px ) {
+   
     .section__padding{
         padding: 4rem 2rem;
     } 
